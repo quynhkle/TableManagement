@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/edit_floor"
+    tools:context=".EditFloor">
+
+    <GridView
+        android:id="@+id/edit_floor_tables"
+        android:layout_margin="30dp"
+        android:columnWidth="100dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:horizontalSpacing="30dp"
+        android:verticalSpacing="95dp"
+        android:numColumns="5">
+
+    </GridView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/edit_floor_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="@android:color/darker_gray"
+        app:srcCompat="@drawable/round_add_circle" />
+
+</android.support.design.widget.CoordinatorLayout>

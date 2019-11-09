@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/assign_section_button"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:title="Assign Server Sections"
+        android:textColor="@android:color/black"
+        android:icon="@drawable/round_button" />
+
+</menu>

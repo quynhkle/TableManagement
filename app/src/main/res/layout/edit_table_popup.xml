@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="#bababa">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:id="@+id/table_number"/>
+
+    <Spinner
+        android:id="@+id/status_spinner"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"
+        android:layout_gravity="center"
+        android:padding="5dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_button"
+        android:textSize="20sp"
+        android:text="@string/done"
+        android:id="@+id/done_button"/>
+
+</LinearLayout>

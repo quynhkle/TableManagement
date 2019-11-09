@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/select_server_num"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:title="Change number of servers"
+        android:textColor="@android:color/black"
+        android:icon="@drawable/round_button" />
+</menu>

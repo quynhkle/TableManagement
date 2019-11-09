@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainMenu"
+    android:background="#ffffff"
+    style="?android:attr/buttonBarStyle">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ewaiter_icon"/>
+
+    <Button
+        android:id="@+id/floor_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/hello"
+        style="?android:attr/buttonBarStyle"
+        android:textColor="@android:color/black"
+        android:background="@drawable/round_button"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:onClick="launchFloor"/>
+
+    <Button
+        android:id="@+id/stats_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/statistics"
+        style="?android:attr/buttonBarStyle"
+        android:textColor="@android:color/black"
+        android:background="@drawable/round_button"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:onClick="launchStats"/>
+
+    <Button
+        android:id="@+id/edit_floor_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/edit_floor_plan"
+        style="?android:attr/buttonBarStyle"
+        android:textColor="@android:color/black"
+        android:background="@drawable/round_button"
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:onClick="launchEditFloor"/>
+
+    <Button
+        android:id="@+id/waitlist_button"
+        style="?android:attr/buttonBarStyle"
+        android:textColor="@android:color/black"
+        android:background="@drawable/round_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/view_waitlist"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:onClick="launchWaitlist"/>
+
+</LinearLayout>
+

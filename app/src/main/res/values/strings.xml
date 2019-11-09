@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E-Waiter</string>
+    <string name="floor_plan">View Floor</string>
+    <string name="statistics">Statistics</string>
+    <string name="edit_floor_plan">Edit Floor Plan</string>
+    <string name="view_waitlist">View Waitlist</string>
+    <string name="hello">hello</string>
+    <string name="name">Name: </string>
+    <string name="party_num">Party of: </string>
+    <string name="add_customer_name">Type new customer name here…</string>
+    <string name="title_activity_view_waitlist">ViewWaitlist</string>
+    <string name="add_party_num">Type number in party here…</string>
+    <string name="add_new_customer">Adding New Customer</string>
+    <string name="edit_time_arrival">Type time of arrival here…</string>
+    <string name="title_activity_statistics">Statistics</string>
+    <string name="action_settings">Settings</string>
+    <string name="done">Done</string>
+    <string name="add_table_name">Type in name of table here…</string>
+    <string name="place_table_message">Now select where you want to place the table.</string>
+    <string name="place_table_message2">A table already exists here. Select another slot.</string>
+    <string name="place_table_message3">Table successfully placed.</string>
+    <string name="assign_section_message">Slide the bar above to select server, then select tables for the server section.</string>
+    <string name="seekbar_change_message">Select the tables for this server\'s section.</string>
+    <string-array name="seatnum_array">
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="server_num">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="status_array">
+        <item>Empty</item>
+        <item>Just Seated</item>
+        <item>Food Ordered</item>
+        <item>Eating</item>
+        <item>Dessert</item>
+        <item>Printed Check</item>
+        <item>Closed Check</item>
+        <item>Need To Be Cleared</item>
+        <item>Holding</item>
+    </string-array>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#bababa"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/table_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="50sp"/>
+
+    <EditText
+        android:id="@+id/add_table_name"
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="#FFFFFF"
+        android:elevation="10dp"
+        android:hint="@string/add_table_name"
+        android:maxLength="3" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number of seats: "
+            android:layout_margin="20dp"
+            android:textSize="25sp"/>
+
+        <Spinner
+            android:id="@+id/num_of_seats"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:spinnerMode="dropdown" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/settings_delete_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="bottom|start"
+            android:background="@drawable/round_button"
+            android:text="Delete"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/settings_done_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_toEndOf="@id/settings_delete_button"
+            android:background="@drawable/round_button"
+            android:text="Done"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

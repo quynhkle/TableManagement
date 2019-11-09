@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#bababa">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_new_customer"
+            android:textSize="40sp"
+            android:layout_gravity="top|center_horizontal"/>
+
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="50dp"
+            android:id="@+id/add_customer_name"
+            android:layout_gravity="start"
+            android:hint="@string/add_customer_name"
+            android:inputType="textPersonName"
+            android:background="#FFFFFF"
+            android:elevation="10dp"
+            android:layout_margin="20dp"/>
+
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="50dp"
+            android:id="@+id/add_party_num"
+            android:layout_gravity="start"
+            android:hint="@string/add_party_num"
+            android:inputType="number"
+            android:background="#FFFFFF"
+            android:elevation="10dp"
+            android:layout_margin="20dp"/>
+
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="50dp"
+            android:id="@+id/edit_time_arrival"
+            android:layout_gravity="start"
+            android:hint="@string/edit_time_arrival"
+            android:inputType="time"
+            android:background="#FFFFFF"
+            android:elevation="10dp"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_button"
+            android:textSize="20sp"
+            android:text="Done"
+            android:id="@+id/settings_done_button"/>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_move_table"
+    tools:context=".MoveTable">
+
+    <GridView
+        android:id="@+id/move_table_grid"
+        android:layout_margin="30dp"
+        android:columnWidth="100dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:horizontalSpacing="30dp"
+        android:verticalSpacing="95dp"
+        android:numColumns="5">
+    </GridView>
+
+</android.support.constraint.ConstraintLayout>
